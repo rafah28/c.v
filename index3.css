@@ -1,0 +1,142 @@
+body{
+	font-family: 'Slabo 27px', serif;
+}
+.container{
+	height: 730px;
+	width: 100%;
+	background-color: pink;
+
+}
+#list{
+	position: absolute;
+	z-index: 3;
+	list-style-type: none;
+	top: 20px;
+	left: : 100px;
+}
+#list li{
+	float: right;
+	width: 100px;
+}
+#list li a{
+	color: white;
+	text-decoration: none;
+	text-shadow:2px  2px gray;
+}
+#list li a:hover{
+	color: red;
+}
+#list2{
+	list-style-type: none;
+}
+#list2 li{
+	float: right;
+	width: 100px;
+}
+#list2 li img:hover{
+	opacity: 0.5;
+}
+footer p{
+	position: absolute;
+	text-shadow:2px 4px gray;
+	color: white;
+	margin-left: 40px;
+}
+footer{
+	background-color: #00081f;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+}
+
+.div1{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -10px;
+	right: 120px;
+}
+.div1:hover{
+	background-color: white;
+	border: 1px solid red;
+}
+#main1{
+	width: 62%;
+	height: 500px;
+	background-color: ;
+	position: absolute;
+	top: 60px;
+	left: 435px;
+
+}
+.pic input{
+	width: 200px;
+	height: 200px;
+	border: 2px solid red;
+	position: absolute;
+	top: 60px;
+	margin: 10px;
+	margin-left: 20px;
+}
+.info1{
+	position: absolute;
+	top: 290px;
+	margin-left: 20px;
+	text-align: justify;
+}
+p{
+	font-size: 17px;
+}
+span{
+	font-weight: bold;
+}
+.into2{
+	position: absolute;
+	top: 90px;
+	right:350px;
+	background-color: ;
+
+}
+.into3{
+	position: absolute;
+	top: 310px;
+	right:195px;
+	text-align: justify;
+	width: 350px;
+}
+.into3 textarea{
+	width: 400px;
+	height: 280px;
+}
+legend{
+	color: white;
+}
+#txt1{
+	width: 190px;
+}
+#txt2{
+	width: 175px;
+}
+#txt3{
+	width: 259px;
+}
+#txt4{
+	width: 213px;
+}
+#txt5{
+	width: 170px;px;
+}
+#txt6{
+	width: 245px;
+}
+#sub{
+	position: absolute;
+	bottom: 30px;
+	right: 150px;
+	width: 270px
+	height:40px;
+
+}
