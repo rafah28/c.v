@@ -1,0 +1,119 @@
+
+body{
+	font-family: 'Slabo 27px', serif;
+}
+.d-block{
+	height: 600px !important;
+}
+
+#list{
+	position: absolute;
+	z-index: 3;
+	list-style-type: none;
+	top: 20px;
+	left: : 100px;
+}
+#list li{
+	float: right;
+	width: 100px;
+}
+#list li a{
+	color: white;
+	text-decoration: none;
+	text-shadow:2px  2px gray;
+}
+#list li a:hover{
+	color: red;
+}
+#list2{
+	list-style-type: none;
+}
+#list2 li{
+	float: right;
+	width: 100px;
+}
+#list2 li img:hover{
+	opacity: 0.5;
+}
+footer p{
+	position: absolute;
+	text-shadow:2px 4px gray;
+	color: white;
+	margin-left: 40px;
+}
+footer{
+	background-color: #00081f;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+}
+
+#main{
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+	z-index: 5;
+	top: 60px;
+	left: 31%;
+	border-radius: 220px;
+	height: 450px;
+	width: 450px;
+}
+#main:hover{
+	border: 2px solid black;
+	background:rgba(255,255,255,0.5); 
+}
+#main h1{
+	position: absolute;
+	top: 100px;
+	left: 27%;
+	color: white;
+
+}
+#main p{
+	position: absolute;
+	top: 180px;
+	left: 70px;
+	width: 70%;
+	text-align: justify;
+	font-weight: bold;
+	font-size: 19px;
+}
+#main #btn1{
+	position: absolute;
+	top: 330px;
+	left: 110px;
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	border: 0;
+	border-radius: 20px;
+}
+#main #btn2{
+	position: absolute;
+	top: 330px;
+	left: 240px;
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	border: 0;
+	border-radius: 20px;
+}
+#main #btn1:hover{
+  border: 2px solid black;
+
+}
+#main #btn2:hover{
+  border: 2px solid black;
+
+}
+button a{
+	text-decoration: none;
+	color: black;
+}
+button a:hover{
+	text-decoration: none;;
+	color: red;
+}
+
+
